@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ToDo List App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ToDo List</h1>
+        <form id="taskForm">
+            <input type="text" id="newTask" placeholder="Add a new task" required>
+            <button type="submit">Add</button>
+        </form>
+        <ul id="taskList"></ul>
+        <div class="controls">
+            <button id="complete">Completed</button>
+            <button id="delete">Delete Task</button>
+            <button id="changeTheme">Change theme! </button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
